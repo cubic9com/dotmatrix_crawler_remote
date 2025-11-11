@@ -5,8 +5,10 @@ This application uses the [M5Stack Core2](https://docs.m5stack.com/en/core/core2
 
 \[日本語\]
 
-LEDドットマトリックスディスプレイを搭載したクローラーロボット用のワイヤレスリモートコントローラー。
-このアプリケーションは、[M5Stack Core2](https://docs.m5stack.com/en/core/core2) のタッチスクリーンを使用して方向制御インターフェースを提供し、[ESP-NOW プロトコル](https://www.espressif.com/en/solutions/low-power-solutions/esp-now) を介してロボットと通信します。
+LEDドットマトリックスディスプレイを搭載したクローラーロボット用の無線リモートコントローラー。
+このアプリケーションは、[M5Stack Core2](https://docs.m5stack.com/en/core/core2) のタッチスクリーンに方向制御UIを表示し、[ESP-NOW プロトコル](https://www.espressif.com/en/solutions/low-power-solutions/esp-now) を介してロボットと通信します。
+
+![video](video.gif)
 
 # Hardware Requirements / ハードウェア要件
 
@@ -25,6 +27,7 @@ This remote controller is designed to work with a crawler robot equipped with:
 - Motor Driver: [Toshiba TB6612FNG dual motor driver](https://aliexpress.com/item/1005005973846875.html)
 - Crawler Kit: [TP101](https://ja.aliexpress.com/item/1005002052435803.html)
 - Dot-Matrix Display: [16x16 WS2812B LED dot-matrix panel](https://aliexpress.com/item/4000544584524.html)
+- Rechargeable Ni-MH AA Battery x 4 (4.8V)
 
 For robot-side implementation details, see the companion project: [dotmatrix_crawler_robot](https://github.com/cubic9com/dotmatrix_crawler_robot)
 
@@ -34,6 +37,7 @@ For robot-side implementation details, see the companion project: [dotmatrix_cra
 - モータードライバー: [Toshiba TB6612FNG デュアルモータードライバー](https://aliexpress.com/item/1005005973846875.html)
 - クローラーキット: [TP101](https://ja.aliexpress.com/item/1005002052435803.html)
 - ドットマトリックスディスプレイ: [16x16 WS2812B LED ドットマトリックスパネル](https://aliexpress.com/item/4000544584524.html)
+- ニッケル水素充電池 x 4 (4.8V)
 
 ロボット側の実装の詳細については、以下の関連プロジェクトをご覧ください。 [dotmatrix_crawler_robot](https://github.com/cubic9com/dotmatrix_crawler_robot)
 
@@ -41,11 +45,11 @@ For robot-side implementation details, see the companion project: [dotmatrix_cra
 
 ## Dependencies / 依存ライブラリ
 
-- M5Unified: M5Stack Core2 hardware control and display management
+- [M5Unified](https://github.com/m5stack/M5Unified): M5Stackシリーズ用Arduino / ESP-IDFライブラリ
 
 \[日本語\]
 
-- M5Unified: M5Stack Core2 ハードウェア制御およびディスプレイ管理
+- [M5Unified](https://github.com/m5stack/M5Unified): Arduino / ESP-IDF Library for M5Stack Series
 
 # Project Structure / プロジェクト構成
 
