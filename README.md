@@ -1,7 +1,7 @@
 # Overview / 概要
 
-A wireless remote controller for a crawler robot equipped with a LED dot-matrix display.
-This application uses the [M5Stack Core2](https://docs.m5stack.com/en/core/core2)'s touch screen to provide a directional control interface, communicating with the robot via [ESP-NOW protocol](https://www.espressif.com/en/solutions/low-power-solutions/esp-now).
+A wireless remote controller for a crawler robot equipped with an LED dot-matrix display.
+This application uses the [M5Stack Core2](https://docs.m5stack.com/en/core/core2)'s touch screen to provide a directional control interface, communicating with the robot via the [ESP-NOW protocol](https://www.espressif.com/en/solutions/low-power-solutions/esp-now).
 
 \[日本語\]
 
