@@ -32,6 +32,7 @@ This remote controller is designed to work with a crawler robot equipped with:
 For robot-side implementation details, see the companion project: [dotmatrix_crawler_robot](https://github.com/cubic9com/dotmatrix_crawler_robot)
 
 \[日本語\]
+
 このリモートコントローラーは、以下のコンポーネントを搭載したクローラーロボットで動作するように設計されています。
 - マイクロコントローラー: [Seeed Studio XIAO ESP32-C6](https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/)
 - モータードライバー: [Toshiba TB6612FNG デュアルモータードライバー](https://aliexpress.com/item/1005005973846875.html)
@@ -45,11 +46,11 @@ For robot-side implementation details, see the companion project: [dotmatrix_cra
 
 ## Dependencies / 依存ライブラリ
 
-- [M5Unified](https://github.com/m5stack/M5Unified): M5Stackシリーズ用Arduino / ESP-IDFライブラリ
+- [M5Unified](https://github.com/m5stack/M5Unified): Arduino / ESP-IDF Library for M5Stack Series
 
 \[日本語\]
 
-- [M5Unified](https://github.com/m5stack/M5Unified): Arduino / ESP-IDF Library for M5Stack Series
+- [M5Unified](https://github.com/m5stack/M5Unified): M5Stackシリーズ用Arduino / ESP-IDFライブラリ
 
 # Project Structure / プロジェクト構成
 
